@@ -1166,6 +1166,7 @@ fill:#F4F4FD;
 
 
 .modal-check:checked + .modal-check-text span {
+display: inline-flex;
 background-color: var(--ocean, #404BBF);
 border-radius: 1px;
 border: none;
