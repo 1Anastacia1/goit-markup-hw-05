@@ -1147,7 +1147,7 @@ letter-spacing: 0.04em;
 text-decoration-line: underline;
 margin-left: 4px;
 }
-.modal-check-text-span span{
+.modal-check-text-span{
 display: inline-flex;
 align-items: center;
 justify-content: center;
