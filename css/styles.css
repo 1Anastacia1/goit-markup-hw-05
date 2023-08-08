@@ -864,6 +864,7 @@ margin-bottom: 16px;
 }
 .footer-email-form{
 display: flex;
+gap: 24px;
 }
 
 
@@ -881,7 +882,6 @@ line-height: 1.5; /* 200% */
 letter-spacing: 0.04em;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
 
-margin-right: 24px;
 padding: 8px 16px;
 border-radius: 4px;
 border: 1px solid var(--white, #FFF);
@@ -923,7 +923,7 @@ background-color: rgba(46, 47, 66, 0.4);
 top:0;
 transition:opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
- padding: 72px 24px 24px 24px;
+
 }
 .modal{
 position: absolute;
@@ -940,6 +940,7 @@ box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14),
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 24px;
 display: block;
+padding: 72px 24px 24px 24px;
   }
 
 .modal-close{
@@ -1022,22 +1023,22 @@ letter-spacing: 0.02em;
 
 }
 .modal-field{
-/* margin-bottom: 16px; */
+margin-bottom: 8px;
 }
 
 .modal-label{
 display: block;
-padding-bottom: 4px;
+margin-bottom: 4px;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.17; 
-letter-spacing: 0.08em;
+letter-spacing: 0.04em;
 color: var(--lightslate, #8E8F99);
 }
 .modal-input-wrap{
 position: relative;
-padding-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .modal-input{
@@ -1064,14 +1065,14 @@ fill:#4D5AE5
 
 
 .modal-form-btn{
-display: inline-flex;
+display: block;
 align-items: flex-start;
 text-align: center;
 justify-content: center;
 min-width: 169px;
 height: 56px;
 
-font-family:'Roboto';
+font-family:"Roboto" sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -1092,7 +1093,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 stroke: #2E2F42;
 position: absolute;
 left: 16px;
-top: 45%;
+top: 50%;
 transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1116,7 +1117,6 @@ resize: none;
 .modal-comment:focus{
 border-color: #4D5AE5; 
 }
-
 
 
 
@@ -1145,7 +1145,7 @@ text-decoration-line: underline;
 margin-left: 4px;
 }
 .modal-check-text-span{
-display: flex;
+display: inline-flex;
 align-items: center;
 justify-content: center;
 width: 16px;
@@ -1158,7 +1158,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 } 
 
 .input:checked{
-fill:var(--color);
+fill:#F4F4FD;
 }
 
 
