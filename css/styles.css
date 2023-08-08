@@ -1148,7 +1148,7 @@ text-decoration-line: underline;
 margin-left: 4px;
 }
 .modal-check-text-span{
-display: inline-flex;
+display: inline-flex; 
 align-items: center;
 justify-content: center;
 width: 16px;
@@ -1166,7 +1166,6 @@ fill:#F4F4FD;
 
 
 .modal-check:checked + .modal-check-text span {
-display: inline-flex;
 background-color: var(--ocean, #404BBF);
 border-radius: 1px;
 border: none;
